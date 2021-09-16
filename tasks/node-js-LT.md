@@ -41,10 +41,11 @@ Write a program which should do the following:
 Rewrite the above-mentioned programs to use [babel](https://babeljs.io/) and ES6modules.
 
 ### EVALUATION CRITERIA (max 100 points)
-- Task 1.1 is fulfilled to the full extent  **+10 points**
-- Task 1.2 is fulfilled to the full extent; the file is loaded fully into the RAM **+20 point**
-- Task 1.2 is fulfilled to the full extent; the file is not loaded fully in the RAM ([pipeline method](https://nodejs.org/api/stream.html#stream_stream_pipeline_streams_callback)) **+30 points**
-- All the tasks are fulfilled to the full extent (Task 1.1,Task 1.2,Task 1.3). **+40points**
+- Task 1.1 is fulfilled to the full extent  **+30 points**
+- One of the following:
+    - Task 1.2 is fulfilled to the full extent; the file is loaded fully into the RAM **+20 point**
+    - Task 1.2 is fulfilled to the full extent; the file is not loaded fully in the RAM ([pipeline method](https://nodejs.org/api/stream.html#stream_stream_pipeline_streams_callback)) **+40 points**
+- All the tasks are fulfilled to the full extent (Task 1.1,Task 1.2,Task 1.3). **+30points**
 
 
 
@@ -86,10 +87,12 @@ Add server-side validation for create/update operations of User entity:
 - user’s age must be between 4 and 130.In case of any property does not meet the validation requirements or the field is absent, return 400 (Bad Request) and detailed error message. For requests validation use special packages like [joi](https://github.com/hapijs/joi), [express-joi-validation](https://www.npmjs.com/package/express-joi-validation)
 
 ### EVALUATION CRITERIA (max 100 points)
-- Task 2.1 is partially implemented (w/o getAutoSuggestUsers or other methods); **+10 points**
-- Task 2.1 is fulfilled to the full extent; **+20points**
-- Task 2.1 eslint rules are applied; **+30 points**
-- Task 2.2 is fulfilled to the full extent; validation package is used. **+40points**
+- One of the following:
+    - Task 2.1 is partially implemented (w/o getAutoSuggestUsers or other methods); **+15 points**
+    - Task 2.1 is fulfilled to the full extent; **+40points**
+- Task 2.1 eslint rules are applied; **+10 points**
+- Task 2.2 is fulfilled to the full extent **+40points**
+- Task 2.2 validation package is used. **+10points**
 
 
  
@@ -111,12 +114,14 @@ Every method in the controllers should log the errors which should include the f
 - arguments which have been passed to the method;
 - error message.
 
-### EVALUATION CRITERIA ( max 100 points + 50 points for the *task)
-- Custom logger based on console.log is added instead of Logger package. **+10 points**
+### EVALUATION CRITERIA ( 85 + 15 extra points for the task)
+- One of the following:
+    - [Winston](https://github.com/winstonjs/winston) is used to handle the logging **+15 points**
+    - Custom logger based on console.log is added instead of Logger package. **+0 points**
 - Task 3.1 is fulfilled to the full extent; logs are written into the console **+20 points**
-- Task 3.2 is fulfilled to the full extent, [Winston](https://github.com/winstonjs/winston) package is used for logging **+30 points**
-- Task 3.3 is fulfilled to the full extent **+40 points**
-- *Add middleware wrapper functions (or decorators) which will track the methods’ execution time. **+50 points**
+- Task 3.2 is fulfilled to the full extent; **+20 points**
+- Task 3.3 is fulfilled to the full extent **+30 points**
+- **Extra** *Add middleware wrapper functions (or decorators) which will track the methods’ execution time. **+15 points**
 
 
 
@@ -135,7 +140,8 @@ Add authorization to the already existing REST service.
 Add CORS middleware to access service methods from Web Applications hosted on other [domains](https://github.com/expressjs/cors)
 
 ### EVALUATION CRITERIA (max 100 points)
-- Task 4.1 is implemented partially; login method is added and JWT token is generated **+10 points**
-- Task 4.1 is implemented partially; JWT token checking method is implemented **+20 points**
-- Task 4.1 is fulfilled to the full extent; authorization working using middleware **+30 points**
+- One of the following:
+    - Task 4.1 is implemented partially; login method is added and JWT token is generated **+10 points**
+    - Task 4.1 is implemented partially; JWT token checking method is implemented **+20 points**
+    - Task 4.1 is fulfilled to the full extent; authorization working using middleware **+60 points**
 - Task 4.2 is fulfilled to the full extent. **+40 points**
