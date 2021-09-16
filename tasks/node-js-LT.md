@@ -45,7 +45,7 @@ Rewrite the above-mentioned programs to use [babel](https://babeljs.io/) and ES6
 - One of the following:
     - Task 1.2 is fulfilled to the full extent; the file is loaded fully into the RAM **+20 point**
     - Task 1.2 is fulfilled to the full extent; the file is not loaded fully in the RAM ([pipeline method](https://nodejs.org/api/stream.html#stream_stream_pipeline_streams_callback)) **+40 points**
-- All the tasks are fulfilled to the full extent (Task 1.1,Task 1.2,Task 1.3). **+30points**
+- Task 1.3 is fulfilled to the full extent. **+30points**
 
 
 
